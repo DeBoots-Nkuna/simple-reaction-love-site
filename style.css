@@ -1,0 +1,122 @@
+body {
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  background: linear-gradient(#ffc4d6, #ffe5ec);
+  color: white;
+}
+
+/* heading */
+h1,
+h2,
+h3,
+h4,
+h4,
+h5 {
+  text-shadow: 0 0 2px black;
+}
+
+/* me text*/
+.me {
+  color: black;
+  text-shadow: 0px 0px 3px red;
+}
+
+.heart {
+  color: black;
+  text-shadow: 0px 0px 3px red;
+}
+
+h2,
+h3 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+/* header */
+
+.header {
+}
+
+#header-img {
+  width: 200px;
+  border-radius: 50%;
+  border: 6px solid #f4978e;
+}
+/* heart image */
+.heart-img {
+  width: 400px;
+  height: 400px;
+  background-image: url('images/heart-gift.png');
+  background-size: cover;
+  margin: 0 auto;
+  background-color: #f4978e;
+  border-radius: 10px;
+}
+
+/* heart sparkling gif */
+#heart-eyes-sparkling:hover {
+  background-image: url('images//eyes-sparkling.gif');
+  background-size: cover;
+}
+/* hug gif */
+
+#heart-hug-gif:hover {
+  background-image: url('images/hugs.gif');
+  background-size: cover;
+}
+
+/* miss you gif */
+#heart-miss-you-gif:hover {
+  background-image: url('images/heart-melted.gif');
+  background-size: cover;
+}
+
+/* excited */
+#heart-see-you-gif:hover {
+  background-image: url('images/excited.gif');
+  background-size: cover;
+}
+
+/* lonely */
+#heart-not-talking-gif:hover {
+  background-image: url('images/crying.gif');
+  background-size: cover;
+}
+
+/* author */
+#author {
+  font-size: 15px;
+  color: #f4978e;
+  text-shadow: 0px 0px 3px black;
+  background-color: black;
+  padding: 6px 14px;
+  border-radius: 10px;
+  margin-top: 0;
+}
+
+#ending-title {
+  font-size: 15px;
+  color: #f4978e;
+  text-shadow: 0px 0px 3px black;
+  background-color: black;
+  padding: 6px 14px;
+  border-radius: 10px;
+}
+
+#ending-message {
+  font-size: 15px;
+  color: #f4978e;
+  text-shadow: 0px 0px 3px black;
+  background-color: black;
+  padding: 6px 14px;
+  border-radius: 10px;
+}
+
+/* footer */
+.footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
